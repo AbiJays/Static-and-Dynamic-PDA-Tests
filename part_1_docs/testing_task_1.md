@@ -37,7 +37,7 @@ class CardGame:
     return card2
   
 
-
+# remove additional line as it breaks from the general structure
 def cards_total(self, cards):
   # Indented too far left so is not under card_game 
   total
