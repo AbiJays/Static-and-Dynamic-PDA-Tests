@@ -46,4 +46,5 @@ def cards_total(self, cards):
     total += card.value
     return "You have a total of" + total
     # identation of return statement is incorrect. Needs to be at the same level as "for" in order to get total, otherwise it will iterate evey loop.
+    # This return function will not work as it is a partial formatted string written badly 
 ```
