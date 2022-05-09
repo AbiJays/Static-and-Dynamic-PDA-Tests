@@ -28,7 +28,7 @@ class CardGame:
 
   dif highest_card(self, card1 card2): 
     # def spelled incorrectly
-    # no comma separating the two parameters 
+    # no comma separating the two card parameters 
   if card1.value > card2.value:
     # needs to be indented one to the right so it is contained within the highest_card() method
     return card 
@@ -39,10 +39,11 @@ class CardGame:
 
 
 def cards_total(self, cards):
+  # Indented too far left so is not under card_game 
   total
   # total means nothing, it has not been assigned anything so is not a usable variable. 
   for card in cards:
     total += card.value
     return "You have a total of" + total
-    # identation of return statement is incorrect. Needs to be at the same level at for in order to get total, otherwise it will iterate evey loop.
+    # identation of return statement is incorrect. Needs to be at the same level as "for" in order to get total, otherwise it will iterate evey loop.
 ```
